@@ -1,0 +1,18 @@
+{
+  "name": "show-afm-stats",
+  "version": "1.0.0",
+  "description": "script to query BIG-IP AFM for AFM rule statistics and output a CSV",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {},
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "jsonata": "1.4.1",
+    "node-rest-client-promise": "^3.1.1",
+    "yargs": "10.0.3"
+  }
+}
